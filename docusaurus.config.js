@@ -43,6 +43,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          docItemComponent: "@theme/ApiItem",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -70,6 +71,26 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: 'openapi',
+        docsPluginId: 'classic',
+        config: {
+          petstore: { 
+            specPath: 'openapi/petstore-api.yaml',
+            outputDir: 'docs/petstore',
+            sidebarOptions: {
+              groupPathsBy: 'tag', 
+            },
+          },
+        }
+      }
+    ]
+  ],
+  themes: ['docusaurus-theme-openapi-docs'],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -93,6 +114,12 @@ const config = {
             sidebarId: 'guideSidebar',
             position: 'left',
             label: 'Guides',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'petstoreSidebar',
+            position: 'left',
+            label: 'Petstore API',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
