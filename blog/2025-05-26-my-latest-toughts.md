@@ -17,3 +17,7 @@ A forráskód és/vagy az API dokumentációk általában automatikusan jönnek 
 <!-- truncate -->
 
 A Docusaurus előnyei az operatív és oktatási célú dokumentumok esetében jönnek ki igazán. Ezekben az esetekben a tartalmat általában külső közönségnek szánják, ahol a felhasználói csoport nagyon sokszínű. Ez az eszköz javíthatja a dokumentációkezelés hatékonyságát és a szabványosítás szintjét a szoftvergyártás folyamán.
+
+<!-- truncate -->
+
+Ezzel az utolsó bekezdéssel talán egyértelművé tettem...
