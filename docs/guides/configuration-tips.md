@@ -31,7 +31,3 @@ Csak abban a forrásban definiálható amelyben a gyűjtemény implementálásra
 A beállítás hatására minden teszteset eltávolításra kerül a bináris állományokból beleértve az egyedileg definiált teszteseteket is.
 
  A beállítás globálisan értelmezett.
-
----------------
-
-[Kezdőlap](readme.md#reference)
