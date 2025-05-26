@@ -76,9 +76,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Zsófi DocuSite',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Zsófi DocuSite Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -87,6 +87,12 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'guideSidebar',
+            position: 'left',
+            label: 'Guides',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -104,7 +110,12 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/tutorials/intro',
+              },
+              {
+                to: '/docs/guides/installation-guide',
+                label: 'Guides',
+                position: 'left'
               },
             ],
           },
