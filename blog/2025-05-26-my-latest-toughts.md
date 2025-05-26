@@ -1,6 +1,7 @@
 ---
 slug: mdx-blog-post
 title: Tapasztalataim a Docusaurus-ról
+authors: [zsofi]
 tags: [docusaurus, static-generator]
 ---
 

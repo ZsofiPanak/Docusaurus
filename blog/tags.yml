@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+static-generator:
+  label: static-generator
+  permalink: /static-generator
+  description: Static generator tag description
