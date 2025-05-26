@@ -1,5 +1,5 @@
 ---
-slug: mdx-blog-post
+slug: my-latest-toughts
 title: Tapasztalataim a Docusaurus-ról
 authors: [zsofi]
 tags: [docusaurus, static-generator]
