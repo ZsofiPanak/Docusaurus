@@ -7,15 +7,15 @@ title: Automatikus telepítési útmutató
 
 ## Tartalom
 
-* [Bevezetés](#introduction)
-* [PROD telepítés](#production-deployments)
-* [Staging telepítés](#staging-deployments)
+* [Introduction](#introduction)
+* [PROD deployment](#production-deployment)
+* [Staging deployment](#staging-deployment)
 
 ## Introduction
 
 Az alkalmazás automatikus telepítése CI/CD folyamaton keresztül töerténik ahol az egyes (git) commit-ok hozzáadásra kerülnek a `master` branch-hez az aktuális kód tárolóban (repository).
 
-## PROD telepítés
+## Production-deployment
 
 A parancs amellyel új automatikus telepítést kezdeményezhetsz PROD környezetben:
 
@@ -23,7 +23,7 @@ A parancs amellyel új automatikus telepítést kezdeményezhetsz PROD környeze
 
 TBD...
 
-## Staging telepítés
+## Staging-deployment
 
 Az automatikus telepítési folyamatban lehetőséged van staging (UAT TESZT) szerverekre telepíteni az alkalmazást.
 TBD...
