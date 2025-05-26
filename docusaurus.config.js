@@ -150,6 +150,10 @@ const config = {
                 label: 'Guides',
                 position: 'left'
               },
+              {
+                label: 'PetStore API',
+                to: '/docs/petstore/swagger-petstore-openapi-3-0',
+              },
             ],
           },
           {
